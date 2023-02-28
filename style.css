@@ -42,6 +42,11 @@ header {
     justify-content: space-between;
 }
 
+
+.logoTxt{
+    font-family: 'Comforter Brush', cursive;
+    font-size: 2rem;
+}
 .navbar .logo a {
     font-size: 2rem;
     font-weight: bold;
@@ -90,6 +95,7 @@ display: none;
     position: absolute;
     right: 2rem;
     top: 60px;
+    height: 0;
     width: 300px;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(18px);
@@ -114,6 +120,60 @@ display: none;
     justify-content: center;
 }
 
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #0F3460;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: azure;
+}
+
+.footerContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footerContent h1{
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3rem;
+    font-family: 'Comforter Brush', cursive;
+}
+
+.footerContent p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 30px;
+    font-size: 14px;
+
+}
+
+.social{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.social li{
+    margin: 0 10px;
+    width: 20px;
+
+}
+
+.social a:hover i{
+    color: coral;
+}
+
 @media(max-width: 992px) {
     .navbar .links,
     .navbar .action_btn {
@@ -123,11 +183,13 @@ display: none;
     .navbar .toggleBtn {
         display: block;
     }
+
+    .dropdown {
+        display: block;
+    }
 }
 
-.dropdown {
-    display: block;
-}
+
 
 @media (max-width: 576px) {
     .dropdown {
