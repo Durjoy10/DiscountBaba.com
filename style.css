@@ -120,6 +120,55 @@ display: none;
     justify-content: center;
 }
 
+.hotDeals{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+img{
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.cardBtn{
+    color: #0F3460;
+    padding: 0.8rem;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    font-weight: 400;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid #D61355;
+    background: transparent;
+}
+
+.cardBtn:hover {
+    background-color: azure;
+}
+
+.card_grid{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    display: flex;
+    padding: 1rem;
+}
+
+@media (min-width: )
 
 footer{
     position: absolute;
