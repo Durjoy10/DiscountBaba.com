@@ -24,16 +24,16 @@
         <header>
             <div class="navbar">
                 <div class="logo"> 
-                    <a href="index.html" class="logoTxt">DiscountBaba</a> 
+                    <a href="index.php" class="logoTxt">DiscountBaba</a> 
                 </div>
                 <ul class="links">
                     
-                    <li><a href="Deals">Deals</a></li>
+                    <li><a href="index.php">Deals</a></li>
                     <li><a href="Catagories">Catagories</a></li>
                     <li><a href="Contract">Contract</a></li>
-                    <li><a href="about.html">About</a></li>
+                    <li><a href="about.php">About</a></li>
                 </ul>
-                <a href="#" class="action_btn">Get Started</a>
+                <a href="login.php" class="action_btn">Get Started</a>
                 <div class="toggleBtn">
                     <i class="fa-solid fa-bars"></i>
                 </div>
@@ -44,10 +44,10 @@
             <div class="dropdown open">
                 <ul class="links">
                     
-                    <li><a href="Deals">Deals</a></li>
+                    <li><a href="index.php">Deals</a></li>
                     <li><a href="Catagories">Catagories</a></li>
                     <li><a href="Contract">Contract</a></li>
-                    <li><a href="about.html">About</a></li>
+                    <li><a href="about.php">About</a></li>
                     <li><a href="#" class="action_btn">Get Started</a></li>
                     
                 </ul>

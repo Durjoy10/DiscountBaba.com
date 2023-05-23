@@ -380,7 +380,9 @@ img{
     margin-top: 35px;
     text-align: center;
   }
+ 
 
+/*  css for about.html  */
 
 .about {
     font-family: 'Courier New', Courier, monospace;
@@ -480,3 +482,126 @@ img{
     margin-bottom: 5rem;
 
 }
+
+
+/* Login section */
+
+.login{
+    background-color: #f2f2f2;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 5rem;
+}
+
+.login h1{
+    text-align: center;
+    color: #0F3460;
+    font-weight: 600;
+    font-size: 30px;
+    
+}
+
+.login #username , #password {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login .login-btn{
+    width: 100%;
+    padding: 10px;
+    background-color:#0F3460 ;
+    color: azure;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.login .login-btn:hover{
+    background-color: tomato;
+}
+
+
+.login .signup{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.login .signup a {
+    color: #D61355;
+}
+
+.login-footer{
+    align-content: center;
+    position:fixed;
+}
+
+/* Signup section */
+
+.signup{
+    background-color: #f2f2f2;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 5rem;
+}
+
+
+.signup h1{
+    text-align: center;
+    color: #0F3460;
+    font-weight: 600;
+    font-size: 30px;
+    
+}
+
+.signup #username , #password , #mail{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.signup .signup-btn{
+    width: 100%;
+    padding: 10px;
+    background-color:#0F3460 ;
+    color: azure;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+
+}
+
+.signup .signup-btn:hover{
+    background-color: tomato;
+}
+
+
+.signup .login {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.signup .login a {
+    color: #D61355;
+}
+
+.signup-footer{
+    align-content: center;
+    /* position:fixed; */
+}
+
+
